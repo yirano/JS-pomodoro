@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pomodoro Timer</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="timer">
+      <span id="mins">25</span>:<span id="sec">00</span>
+      <div id="incDecBtns">
+        <button id="inc">&raquo;</button>
+        <button id="dec">&laquo;</button>
+      </div>
+    </div>
+    <div id="task">
+      <textarea type="text" id="inputTask" placeholder="What is your task?"></textarea>
+    </div>
+
+    <button id="startTimer">Start</button>
+    <button id="pauseTimer" class="hide">Pause</button>
+    <button id="resetTimer">Reset</button>
+
+  </div>
+
+  <script type="text/javascript" src="jquery-min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
